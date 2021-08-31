@@ -1,9 +1,9 @@
 
 let counter = 0;
 document.addEventListener('DOMContentLoaded', function () {
-    document.querySelector('button').onclick = levitate;
+    //document.querySelector('button').onclick = levitate;
 
-    document.querySelector('#namesubmit').onsubmit = function () {
+    /*document.querySelector('#namesubmit').onsubmit = function () {
         const name = document.querySelector('#name').value;
         if(name.length > 0){
             alert(`Wait, ${name}, Elon\'s gonna pick you up on Jupiter`);
@@ -12,12 +12,11 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         
     };
-
     document.querySelector('#colorchanger').onclick = function(){
         document.querySelector('h1').style.color = 'blue';
     }
+*/
 });
-
 
 function levitate() {
     document.querySelector('h1').innerHTML = 'Elon Musk is levitating!';
