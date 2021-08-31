@@ -1,6 +1,6 @@
 
 let counter = 0;
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', loadjs => {
     //document.querySelector('button').onclick = levitate;
 
     /*document.querySelector('#namesubmit').onsubmit = function () {
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 */
 });
 
-function levitate() {
+levitate => {
     document.querySelector('h1').innerHTML = 'Elon Musk is levitating!';
     counter++;
     document.querySelector('div').innerHTML = counter;
