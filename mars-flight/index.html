@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MFlight</title>
-    <script src="./script.js"></script>
     <link rel="stylesheet" href="./main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,9 +17,8 @@
 </head>
 
 <body>
-    <div class="menu">
-        <h1 class="mflight">MFlight</h1>
         <div class="navbar">
+            <h1 class="mflight"><a href="index.html" class="mfhomepage">MFlight</a></h1>
             <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -30,13 +28,16 @@
             </ul>
         </nav>
         </div>
-    </div>
 
     <h2>Best for the best</h2>
     <p class="usermessage"> Want to become a member of a group of legends and help find a better place?
         Hurry up! The spaceship is not non-dimensional!
     </p>
-    <button id="register"><a href="reg-page.html">Register Now</a></button>
+    <div class="container">
+        <a href="reg-page.html" id="reglink"><button class="register"><div id="regmessage">Register Now</div></button></a>
+    </div>
+    
+    <script src="./script.js"></script>
 </body>
 
 </html>

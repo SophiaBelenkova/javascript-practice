@@ -11,11 +11,52 @@ body {
     color: azure;
 }
 
-h1, button {
+.container{
+    text-align: center;
+}
+
+h1 #register {
     font-family: 'Nunito', sans-serif;
 }
 
+#reglink {
+    text-decoration: none;
+}
+
+.register {
+    font-size: 30px;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: boxshadow, transform;
+
+}
+.register:hover, .register:focus, .register:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#regmessage{
+    opacity: 0.6;
+}
+
+
 .mflight {
+    color: azure;
+    text-decoration: none;
+}
+
+.mfhomepage {
+    text-decoration: none;
     color: azure;
 }
 
@@ -26,7 +67,8 @@ h1, button {
     display: flex;
     align-items: center;
 }
-nav{
+
+nav {
     flex: 1;
     padding-left: 60px;
 }
@@ -34,14 +76,16 @@ nav{
 nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 0px 20px;
+    margin-left: 80px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: azure;
+    font-size: 21px;
 }
 
 .usermessage {
-    font-size: 21px;
+    font-size: 30px;
+    text-align: center;
 }
